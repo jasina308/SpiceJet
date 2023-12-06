@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-06T09:11:03Z" name="Suite" finished-at="2023-12-06T09:11:25Z" duration-ms="21508">
+    <groups>
+    </groups>
+    <test started-at="2023-12-06T09:11:03Z" name="Test" finished-at="2023-12-06T09:11:25Z" duration-ms="21508">
+      <class name="testcases.TC011_FeildValidation_Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC011_FeildValidation_Login@15043a2f]" started-at="2023-12-06T14:41:03Z" name="setup" finished-at="2023-12-06T14:41:03Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC011_FeildValidation_Login@15043a2f]" started-at="2023-12-06T14:41:05Z" name="browserLaunch" finished-at="2023-12-06T14:41:16Z" duration-ms="11876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="invlaidPassword(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC011_FeildValidation_Login@15043a2f]" started-at="2023-12-06T14:41:16Z" name="invlaidPassword" data-provider="NewData" finished-at="2023-12-06T14:41:24Z" duration-ms="7356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jasiriz308@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please enter a valid password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invlaidPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC011_FeildValidation_Login@15043a2f]" started-at="2023-12-06T14:41:24Z" name="closeBrowser" finished-at="2023-12-06T14:41:25Z" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC011_FeildValidation_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

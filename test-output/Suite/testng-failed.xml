@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://www.spicejet.com/"/>
+  <listeners>
+    <listener class-name="utility.Listener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="testcases.TC011_FeildValidation_Login">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="invlaidPassword" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcases.TC011_FeildValidation_Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
