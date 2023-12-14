@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-06T09:11:03Z" name="Suite" finished-at="2023-12-06T09:11:25Z" duration-ms="21508">
+  <suite started-at="2023-12-13T15:24:26Z" name="Suite" finished-at="2023-12-13T15:25:56Z" duration-ms="90026">
     <groups>
     </groups>
-    <test started-at="2023-12-06T09:11:03Z" name="Test" finished-at="2023-12-06T09:11:25Z" duration-ms="21508">
-      <class name="testcases.TC011_FeildValidation_Login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC011_FeildValidation_Login@15043a2f]" started-at="2023-12-06T14:41:03Z" name="setup" finished-at="2023-12-06T14:41:03Z" duration-ms="12" status="PASS">
+    <test started-at="2023-12-13T15:24:26Z" name="Test" finished-at="2023-12-13T15:25:56Z" duration-ms="90026">
+      <class name="testcases.TC007_RoundTrip">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC007_RoundTrip@15043a2f]" started-at="2023-12-13T20:54:26Z" name="setup" finished-at="2023-12-13T20:54:26Z" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="browserLaunch(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC011_FeildValidation_Login@15043a2f]" started-at="2023-12-06T14:41:05Z" name="browserLaunch" finished-at="2023-12-06T14:41:16Z" duration-ms="11876" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RoundTrip@15043a2f]" started-at="2023-12-13T20:54:28Z" name="browserLaunch" finished-at="2023-12-13T20:55:05Z" duration-ms="36394" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,27 +27,82 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="invlaidPassword(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC011_FeildValidation_Login@15043a2f]" started-at="2023-12-06T14:41:16Z" name="invlaidPassword" data-provider="NewData" finished-at="2023-12-06T14:41:24Z" duration-ms="7356" status="PASS">
+        <test-method signature="roundtrip(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RoundTrip@15043a2f]" started-at="2023-12-13T20:55:05Z" name="roundtrip" data-provider="NewData" finished-at="2023-12-13T20:55:56Z" duration-ms="51198" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[jasiriz308@gmail.com]]>
+                <![CDATA[Delhi]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Please enter a valid password]]>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jasina]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hashim ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9487005279]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[jasiriz308@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4012888888881880]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Jasina Hashim]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[05]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[198]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Invalid Card Details]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invlaidPassword -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC011_FeildValidation_Login@15043a2f]" started-at="2023-12-06T14:41:24Z" name="closeBrowser" finished-at="2023-12-06T14:41:25Z" duration-ms="755" status="PASS">
+        </test-method> <!-- roundtrip -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC007_RoundTrip@15043a2f]" started-at="2023-12-13T20:55:56Z" name="closeBrowser" finished-at="2023-12-13T20:55:56Z" duration-ms="489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- testcases.TC011_FeildValidation_Login -->
+      </class> <!-- testcases.TC007_RoundTrip -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

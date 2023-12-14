@@ -8,7 +8,7 @@
   <parameter name="browser" value="chrome"></parameter>
   <test name="Test">
     <classes>
-      <class name="testcases.TC011_FeildValidation_Login"/>
+      <class name="testcases.TC007_RoundTrip"/>
     </classes>
   </test> <!-- Test -->
   

@@ -8,14 +8,14 @@
   </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="testcases.TC011_FeildValidation_Login">
+      <class name="testcases.TC007_RoundTrip">
         <methods>
           <include name="browserLaunch"/>
-          <include name="invlaidPassword" invocation-numbers="0"/>
+          <include name="roundtrip" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- testcases.TC011_FeildValidation_Login -->
+      </class> <!-- testcases.TC007_RoundTrip -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

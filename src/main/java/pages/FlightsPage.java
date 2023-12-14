@@ -326,6 +326,7 @@ public FlightsPage enterfname(String fname)  {
 public FlightsPage enterlname(String lname)  {
 		
 	sendKeys(lastname1,lname);
+	scrollup();
 	return this;
 }
 
@@ -339,15 +340,15 @@ public FlightsPage clickClose() {
 //Method to click second continue button 
 public FlightsPage clickContinue2() throws InterruptedException {
 	sleep();
-	scrollup();
+	scrolldown(continue_button2);
 	actionClick(continue_button2);
+	sleep();
 	return this;
 }
 //Method to click third continue button 
 public FlightsPage clickContinue3() throws InterruptedException {
-	sleep();
 	scrolldown(continue_button3);
-	actionClick(continue_button3);
+	click(continue_button3);
 	sleep();
 	return this;
 }

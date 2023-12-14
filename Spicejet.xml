@@ -23,7 +23,6 @@
            <class name="testcases.TC016_Invalid_SignUp"/>
             <class name="testcases.TC017_ModifySearch"/>
           
-      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
